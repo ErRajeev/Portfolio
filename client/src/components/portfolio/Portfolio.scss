@@ -1,0 +1,28 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    li {
+      font-size: 15px;
+      margin: 50px;
+      padding: 0.7;
+      &.active {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+
+  .portfolio {
+  }
+}
