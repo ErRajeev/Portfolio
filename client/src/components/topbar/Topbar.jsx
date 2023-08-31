@@ -1,6 +1,5 @@
 import "./Topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
-import { useState } from "react";
+import { Mail, GitHub } from "@material-ui/icons";
 
 const Topbar = (props) => {
   const { menuopen, setMenuopen } = props;
@@ -13,8 +12,8 @@ const Topbar = (props) => {
               Rajeev.
             </a>
             <div className="itemcontainer">
-              <Person className="icon" />
-              <span>+91 8084602358</span>
+              <GitHub className="icon" />
+              <span>github.com/ErRajeev</span>
             </div>
             <div className="itemcontainer">
               <Mail className="icon" />

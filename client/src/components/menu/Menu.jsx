@@ -1,5 +1,6 @@
 import React from "react";
 import "./Menu.scss";
+
 const Menu = (props) => {
   const { menuopen, setMenuopen } = props;
   return (

@@ -1,11 +1,11 @@
+import { useState } from "react";
+import "./App.scss";
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Testimonial from "./components/testmonials/Testmonials";
 import Contact from "./components/contacts/Contact";
-import "./App.scss";
-import { useState } from "react";
 import Menu from "./components/menu/Menu";
 
 const App = () => {
