@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./Works.scss";
-import img from "../../skilsData/icons8-python-480.png";
 
 export default function Work() {
   const [currentSlide, setCurrentSlide] = useState(1);
@@ -10,21 +9,21 @@ export default function Work() {
       icon: "./assets/mobile.png",
       title: "Web Design",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img: img,
+      // img: img,
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: "Mobile Application",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: img,
+      // img: img,
     },
     {
       id: "3",
       icon: "./assets/writing.png",
       title: "Branding",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: img,
+      // img: img,
     },
   ];
 
