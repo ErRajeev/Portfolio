@@ -5,15 +5,15 @@
   .left {
     flex: 0.5;
     overflow: hidden;
-    // margin: auto;
+    margin: auto;
+    margin-left: 3rem;
 
     .imgContainer {
-      width: 600px;
-      height: 600px;
+      width: 35rem;
+      height: 35rem;
       margin-right: 50%;
       border-radius: 50%;
       display: flex;
-
       align-items: center;
       float: left;
       overflow: hidden;
